@@ -4,13 +4,13 @@ A "Hello, World" app based on NodeJS and the [Express](https://expressjs.com/) w
 
 ## Building
 
-#### npm
+#### With npm
 
 ```
 $ npm install
 ```
 
-#### Docker
+#### With Docker
 
 ```
 $ docker build -t hello-nodejs-express .
@@ -18,7 +18,7 @@ $ docker build -t hello-nodejs-express .
 
 ## Running
 
-#### npm
+#### With npm
 
 ```
 $ npm start
@@ -26,7 +26,7 @@ $ npm start
 
 This will run `server.js`.
 
-#### Docker
+#### With Docker
 
 ```
 $ docker run -it -p 3000:3000 hello-nodejs-express
