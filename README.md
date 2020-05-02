@@ -11,7 +11,19 @@ $ npm install
 ## Running the app
 
 ```
-$ node app.js
+$ npm start
 ```
 
-Then point your browser at http://localhost:3000/.
+This will run `server.js`. Then point your browser at http://localhost:3000/.
+
+## Building the Docker image
+
+```
+$ docker build -t hello-nodejs-express .
+```
+
+## Running the Docker image
+
+```
+$ docker run -it -p 3000:3000 hello-nodejs-express
+```

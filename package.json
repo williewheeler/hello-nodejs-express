@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "hello-nodejs-express",
+    "version": "0.0.1",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/williewheeler/hello-nodejs-express"
+    },
+    "license": "MIT",
+    "main": "server.js",
+    "dependencies": {
+	"express": "^4.17.1"
+    }
 }
