@@ -2,28 +2,34 @@
 
 A "Hello, World" app based on NodeJS and the [Express](https://expressjs.com/) web framework.
 
-## Installing dependencies
+## Building
+
+#### npm
 
 ```
 $ npm install
 ```
 
-## Running the app
-
-```
-$ npm start
-```
-
-This will run `server.js`. Then point your browser at http://localhost:3000/.
-
-## Building the Docker image
+#### Docker
 
 ```
 $ docker build -t hello-nodejs-express .
 ```
 
-## Running the Docker image
+## Running
+
+#### npm
+
+```
+$ npm start
+```
+
+This will run `server.js`.
+
+#### Docker
 
 ```
 $ docker run -it -p 3000:3000 hello-nodejs-express
 ```
+
+No matter whether you run via npm or Docker, point your brower at http://localhost:3000/.
